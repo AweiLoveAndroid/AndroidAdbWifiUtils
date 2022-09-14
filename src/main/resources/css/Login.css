@@ -1,0 +1,64 @@
+/*标题*/
+#titleLabel {
+    -fx-font-size: 20px;
+    -fx-text-fill: #4a86e8;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-background-color: #8abbfd;
+    -fx-effect: dropshadow( three-pass-box , #4a86e8 , 5, 0.0 , 5 , 5 );
+}
+
+.button: hover {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: #539DFF;
+}
+
+.button: pressed{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: #539DFF;
+}
+
+#connectResultTextArea{
+    -fx-border-color: #8abbfd;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+}
+
+/*给所有TextField设置样式，默认状态*/
+.text-field {
+    -fx-border-color: #8abbfd;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow( three-pass-box , #b0d2ff , 5, 0.0 , 2, 5);
+}
+/*给所有TextField设置样式，鼠标悬停时*/
+.text-field: hover{
+    -fx-border-color: #539DFF;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+}
+/*给所有TextField设置样式，有焦点时*/
+.text-field: focused{
+    -fx-border-color: #539DFF;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+}
+
+/*给TextField单独设置样式*/
+/*#portTextField{
+    -fx-border-color: #8DD4FF;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+}
+
+#ipAddressTextField{
+    -fx-border-color: #8DD4FF;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+}*/

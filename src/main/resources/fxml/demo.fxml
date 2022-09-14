@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="459.0" maxWidth="547.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0" prefWidth="547.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+
+      <Button layoutX="23.0" layoutY="49.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" text="检查连接状态">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+
+      <TextArea layoutX="23.0" layoutY="115.0" prefHeight="300.0" prefWidth="200.0" />
+      
+      <Button layoutX="242.0" layoutY="227.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="212.0" text="绑定端口号">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+
+      <Button layoutX="242.0" layoutY="364.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="212.0" text="连接Wifi">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+
+      <Label layoutX="201.0" layoutY="11.0" text="AdbWifi连接工具" textFill="#131fc9">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+
+      <Button layoutX="242.0" layoutY="156.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="212.0"
+              style="-fx-background-color: #3300ff; -fx-text-fill: #ffffff;" text="校验端口合法性">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <effect>
+            <DropShadow color="#00000099" />
+         </effect>
+      </Button>
+
+      <Button layoutX="242.0" layoutY="296.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="212.0" text="校验IP地址合法性">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <GridPane layoutX="242.0" layoutY="49.0" prefHeight="100.0" prefWidth="212.0">
+         <children>
+            
+            <Label alignment="BASELINE_RIGHT" prefWidth="60.0" text="端口:">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField alignment="CENTER" prefHeight="30.0" prefWidth="136.0" promptText="8888"
+                       style="-fx-border-color: #a1c3e7; -fx-border-radius: 5; -fx-border-width: 2;" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin>
+            </TextField>
+
+            <Label alignment="BASELINE_RIGHT" prefWidth="60.0" text="IP地址:" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="20.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField alignment="CENTER" maxHeight="50.0" prefHeight="30.0" prefWidth="127.0" promptText="192.168.111.111" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="20.0" top="20.0" />
+               </GridPane.margin>
+            </TextField>
+
+         </children>
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+      </GridPane>
+
+   </children>
+</AnchorPane>

@@ -1,0 +1,92 @@
+<idea-plugin>
+  <!-- 插件唯一id，不能和其他插件id重复 -->
+  <id>com.lzw.adbwifiutils</id>
+
+  <!--  版本号-->
+  <version>1.1</version>
+
+  <!-- 插件名称（在插件市场搜索插件时，搜索的就是这个名称） -->
+  <name>AdbWifiUtils</name>
+
+  <!-- 供应商主页和email -->
+  <vendor email="lzw20099002@126.com" url="https://github.com/AWeiLoveAndroid">AWeiLoveAndroid</vendor>
+
+  <!-- 插件描述，支持HTML标签 -->
+  <description>
+    <![CDATA[
+    <h2>AdbWifiUtils</h2>
+    <p></p>
+    <p></p>
+    <div>
+      <a href="https://github.com/AweiLoveAndroid/AndroidAdbWifiUtils">Github</a>&nbsp;&nbsp;|
+      &nbsp;&nbsp;<a href="https://github.com/AweiLoveAndroid/AndroidAdbWifiUtils/issues">Issues</a>&nbsp;&nbsp;|
+      &nbsp;&nbsp;<a href="https://github.com/AweiLoveAndroid/AndroidAdbWifiUtils/blob/main/README.md">README</a>&nbsp;&nbsp;|
+      &nbsp;&nbsp;<a href="https://github.com/AweiLoveAndroid/AndroidAdbWifiUtils/blob/main/README_CN.md">中文文档</a>
+    </div>
+    <p></p>
+    <b>This is an plugin that allows you to connect Android devices over WiFi.</b>
+    <p></p>
+    <div><h3>● [Features]:</h3></div>
+    <p></p>
+    <div>The plugin supports connect Android devices over wifi.The plugin supports all Android versions.It supports for IDEA versions(173.*~222.*). </div>
+    <p></p>
+    <div><h3>● [Supports]:</h3></div>
+    <p></p>
+    <div>&nbsp;&nbsp;○ <b>Android Version:</b> all Android version and devices.</div>
+    <p></p>
+    <div>&nbsp;&nbsp;○ <b>IDEA Version:</b> <b>173.*~222.*</b>. If you are using the Android Studio, you should use Android Studio 3.2.0+.For more information,you can open plugin homepage
+      <a href="https://plugins.jetbrains.com/plugin/19898-adbwifiutils/versions?preview=true">Plugin Versions.</a></div>
+    <p></p>
+    <div><h3>● [Usage]:</h3></div>
+    &nbsp;&nbsp;○ input your wifi ip and any port and then click the [connect] button, then your compute can connect the Android device.
+    <p></p>
+    <div><h3>● [Tips]:</h3></div>
+    &nbsp;&nbsp;○ 1.Make sure that the Android device and the computer are connected to the same WiFi.
+    <p></p>
+    &nbsp;&nbsp;○ 2.If your Android device version earlier than Android 11, you must open your Android devices and find [Settings] --> [WLAN],
+    and then find the WiFi IP address, just Write it down on your mind, it's very important.
+    <p></p>
+    &nbsp;&nbsp;○ 3.If your Android device version is equal to or later than Android 11, you can find [Settings] --> [Additional settings] --> [Developer options],
+    [Wireless debugging], just open it.
+    <p></p>
+         ]]>
+
+</description>
+
+  <!-- 插件版本变更信息，支持HTML标签； 将展示在 settings | Plugins 对话框和插件仓库的Web页面 -->
+  <change-notes>
+    <![CDATA[
+    <div><h3>○ [V1.0]:</h3></div>
+    <p></p>
+    <div>The plugin supports connect Android devices over wifi.The plugin supports all Android versions.It supports for IDEA versions(173.*~222.*). </div>
+    <p></p>
+         ]]>
+</change-notes>
+
+  <!--
+   插件兼容IDEA的最大和最小 build 号，两个属性可以任选一个或者同时使用,
+  please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0" until-build="222.*"/>
+
+  <!-- 插件所依赖的其他插件的id
+  please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <toolWindow
+            id="AdbWifiUtils"
+            secondary="true"
+            anchor="right"
+            icon="TestIcons.default_icon"
+            factoryClass="com.lzw.adbwifiutils.CustomToolWindow">
+    </toolWindow>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
