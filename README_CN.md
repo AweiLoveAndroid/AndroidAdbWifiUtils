@@ -55,7 +55,7 @@
 
 <div><h5>&nbsp;&nbsp;○ [V1.1]:</h5></div>
 <p></p>
-<div>修复了一些Bug。</div>
+<div>修复了一些Bug。添加了截图。完善了README文档。</div>
 <p></p>
 
 
