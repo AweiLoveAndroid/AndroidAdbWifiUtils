@@ -57,7 +57,7 @@ and then find the WiFi IP address, just Write it down on your mind, it's very im
 
 <div><h5>&nbsp;&nbsp;○ [V1.1]:</h5></div>
 <p></p>
-<div>Fix some bugs.</div>
+<div>Fix some bugs.Add the screenshots.Update the [README] documents.</div>
 <p></p>
 
 <div><h5>&nbsp;&nbsp;○ [V1.0]:</h5></div>
