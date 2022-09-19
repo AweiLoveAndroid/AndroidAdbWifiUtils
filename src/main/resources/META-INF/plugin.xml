@@ -56,9 +56,9 @@
   <!-- 插件版本变更信息，支持HTML标签； 将展示在 settings | Plugins 对话框和插件仓库的Web页面 -->
   <change-notes>
     <![CDATA[
-    <div><h3>○ [V1.0]:</h3></div>
+    <div><h3>○ [V1.1]:</h3></div>
     <p></p>
-    <div>The plugin supports connect Android devices over wifi.The plugin supports all Android versions.It supports for IDEA versions(173.*~222.*). </div>
+    <div>Fix some bugs.Add the screenshots.Update the [README] documents.</div>
     <p></p>
          ]]>
 </change-notes>
