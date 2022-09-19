@@ -35,7 +35,7 @@
     <div>&nbsp;&nbsp;○ <b>Android Version:</b> all Android version and devices.</div>
     <p></p>
     <div>&nbsp;&nbsp;○ <b>IDEA Version:</b> <b>173.*~222.*</b>. If you are using the Android Studio, you should use Android Studio 3.2.0+.For more information,you can open plugin homepage
-      <a href="https://plugins.jetbrains.com/plugin/19898-adbwifiutils/versions?preview=true">Plugin Versions.</a></div>
+      <a href="https://plugins.jetbrains.com/plugin/19898-adbwifiutils/versions">Plugin Versions.</a></div>
     <p></p>
     <div><h3>● [Usage]:</h3></div>
     &nbsp;&nbsp;○ input your wifi ip and any port and then click the [connect] button, then your compute can connect the Android device.
